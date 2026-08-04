@@ -1,0 +1,133 @@
+HTML : 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="00.css">
+</head>
+<body>
+ <header>
+  <h1>Shuaib BD</h1>
+ </header>
+ <div>
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Contact</a></li>
+    <li><a href="#">Projects</a></li>
+    <li><a href="#">Skills</a></li>
+    <li><a href="#">Products</a></li>
+    <li><a href="#">Categories</a></li>
+    <li><a href="#">Offers</a></li>
+  </ul>
+ </div>
+<div class="main">
+   <section class="rag">
+   
+    <h2>This is a title</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa, vero fuga suscipit blanditiis vitae officiis facere non nihil molestias pariatur harum, reprehenderit modi maxime reiciendis mollitia doloremque necessitatibus a voluptatum. Fugit deserunt quasi, magni nesciunt ratione quod quae illo id ipsam minus. Consequatur quod, asperiores veniam exercitationem quaerat nesciunt sed.</p>
+    <a href="#">see more..</a>
+
+   
+ </section>
+  
+  <section class="two">
+    <h3>This is a main title</h3>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa atque eos voluptatibus repudiandae porro at ipsam blanditiis id consequuntur quas corporis nam provident neque illo excepturi asperiores molestias laudantium odit sit, enim ut ea? Quam, laudantium quis illum magni perferendis odio veritatis id adipisci non! Aperiam earum distinctio eius accusantium.</p>
+    <a href="#">see more</a>
+  </section>
+    <section id="mause">
+    <h2>This is a title</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi eveniet a ducimus mollitia laudantium ut culpa saepe suscipit, explicabo omnis libero blanditiis repellendus, rerum cupiditate quibusdam ab at atque dolore quam id iure. Quas odit ex corporis cum quam doloribus, aperiam, iste labore nam aliquid voluptatibus quis excepturi doloremque ut?</p>
+    <a href="#">see more..</a>
+  </section>
+</div>
+  
+<footer>
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos magni quod ad, error facere laudantium similique ipsum quis. Cupiditate non eaque odio sunt quis magni suscipit commodi quidem, fugiat natus.</p>
+</footer>
+ 
+ 
+</body>
+</html>
+
+CSS : ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ header{
+      background:darkgreen;
+  padding: 10px 20px;
+  text-align: center;
+}
+header h1{
+  color: white;
+  font-size:40px;
+}
+header:hover{
+       background:seagreen;
+}
+
+ul{
+  font-size: 30px;
+  list-style: none;
+  padding: 10px 15px;
+  margin: 10px;
+    text-align: center;
+}
+ul li{
+  display: inline-block;
+}
+ul li a{
+  background: darkcyan;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+ul li a:hover{
+  background:darkgreen;
+}
+section{
+  background:thistle;
+  margin: 0;
+  padding: 20px;
+  width: 400px;
+}
+h3{
+  font-size: 30px;
+}
+section{
+  margin-bottom: 5px;
+   
+}
+.two{
+  background: salmon;
+}
+ .one{
+  display: flex;
+ }
+ .one{
+  display:flex;
+ }
+ .main{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+ }
+ section{
+  width: 300px;
+ }
+  #mause{
+    background: darkcyan;
+  }
+  .row{
+    display: flex;
+  }
+  footer{
+    background: darkred;
+  }
+  footer p{
+    padding: 10px 20px;
+    color: snow;
+    text-align: center;
+  }
