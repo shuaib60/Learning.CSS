@@ -1,0 +1,43 @@
+ body{
+  text-align: center;
+ }
+ div{
+  width:200px;
+  height:200px;
+  background: palegreen;
+  margin-bottom: 10px;
+ }
+  .one-two {
+    background: salmon;
+    padding: 20px;
+    color:white;
+    text-align:center;
+  
+  }
+   
+  .permanent{
+    background: sienna;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  div{
+    background: darkgreen;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    text-align: center;
+  }
+  #done{
+    background: silver;
+    padding: 10px 20px;
+    color:brown;
+    font-size: 30px;
+  }
+  #none{
+     background: silver;
+     color:black;
+     padding: 20px;
+     text-align: center;
+  }
