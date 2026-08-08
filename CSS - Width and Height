@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="parent">
+    <h1>Hello</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed accusantium adipisci sunt aliquam dolorem
+      consequatur,
+      inventore culpa, dicta nostrum harum quos est vitae, tenetur asperiores consequuntur nesciunt reprehenderit.
+      Voluptatum, qui.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed accusantium adipisci sunt aliquam dolorem
+      consequatur,
+      inventore culpa, dicta nostrum harum quos est vitae, tenetur asperiores consequuntur nesciunt reprehenderit.
+      Voluptatum, qui.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed accusantium adipisci sunt aliquam dolorem
+      consequatur,
+      inventore culpa, dicta nostrum harum quos est vitae, tenetur asperiores consequuntur nesciunt reprehenderit.
+      Voluptatum, qui.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed accusantium adipisci sunt aliquam dolorem
+      consequatur,
+      inventore culpa, dicta nostrum harum quos est vitae, tenetur asperiores consequuntur nesciunt reprehenderit.
+      Voluptatum, qui.</p>
+
+  </div>
+
+
+</body>
+
+</html>
+
+
+CSS : 
+
+ * {
+  margin: 0;
+  padding: 0;
+}
+/* html,
+body {
+  height: 100%;
+} */
+html {
+  height: 50%;
+}
+body {
+  height: inherit;
+}
+.parent {
+  background: #574b90;
+  /* color: #fff; */
+  margin: 20px auto;
+  padding: 2%;
+  width: 92%;
+  /* max-width: 1140px; */
+  /* min-width: 600px; */
+
+  height: initial;
+  /* max-height: 300px; */
+}
